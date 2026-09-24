@@ -192,9 +192,7 @@ The release workflow validates the tag, checks that the three versions agree, ru
 
 ### Contributing
 
-1. Fork the repository and create a branch from `main`.
-2. Run `npm run check` and `npm test` before opening a pull request.
-3. Keep pull requests focused on a single change.
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
