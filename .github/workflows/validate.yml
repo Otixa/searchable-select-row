@@ -26,11 +26,11 @@ jobs:
   hacs:
     name: HACS
     runs-on: ubuntu-latest
-    # The HACS action reads repository metadata over unauthenticated HTTP, which
-    # 404s while the repository is private. Drop this line once it is public.
-    continue-on-error: true
     steps:
       - uses: actions/checkout@v4
       - uses: hacs/action@main
         with:
           category: plugin
+          # 'images' wants a screenshot in the README; it only gates inclusion
+          # in the default HACS store. Remove once the README has one.
+          ignore: images
