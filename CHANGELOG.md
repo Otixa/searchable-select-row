@@ -1,16 +1,16 @@
 # Changelog
 
-## 1.0.0
+All notable changes to this project are documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project follows [Semantic Versioning](https://semver.org/).
 
-First public release.
+## [1.0.0](https://github.com/Otixa/searchable-select-row/releases/tag/v1.0.0) (2026-09-24)
 
-- Entity row for `input_select` and `select` entities that filters options as
-  you type.
-- Every word of the query must match, in any order. Case and accents are
-  ignored. Prefix matches are listed first, then matches at the start of a word.
-- Matched text is highlighted, and the current value is marked with a tick.
-- Keyboard support: arrow keys move, Enter picks, Esc closes the list without
-  closing a surrounding dialog.
-- Optional `none_option`, hidden from the list and set by a clear button.
-- Options are read live from the entity, so `input_select.set_options` changes
-  appear straight away.
+Initial release.
+
+### Features
+
+- Entity row for `input_select` and `select` entities that filters options as the user types.
+- Multi-word matching in any order, ignoring case and accents; prefix matches ranked first, then word-start matches.
+- Matched text highlighted; current value marked.
+- Keyboard navigation: arrow keys, Enter to select, Esc to close the list without closing a surrounding dialog.
+- Optional `none_option`, excluded from the list and selected by a clear button.
+- Options read live from the entity.
