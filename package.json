@@ -1,6 +1,6 @@
 {
   "name": "searchable-select-row",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Home Assistant entity row for input_select and select entities that filters options as you type.",
   "type": "module",

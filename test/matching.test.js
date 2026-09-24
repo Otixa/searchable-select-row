@@ -101,7 +101,7 @@ test("highlightParts keeps the original accented characters", () => {
 
 test("highlightParts gives up rather than mis-highlighting when lengths shift", () => {
   // Decomposed input: normalising drops the combining mark, so indices drift.
-  const decomposed = "Crème";
+  const decomposed = "Cre\u0300me";
   const [m] = matchOptions([decomposed], "me");
   assert.deepEqual(highlightParts(m.option, m.ranges), [{ text: decomposed, match: false }]);
 });

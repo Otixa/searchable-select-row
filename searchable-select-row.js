@@ -10,11 +10,11 @@
 //
 // https://github.com/Otixa/searchable-select-row
 
-export const VERSION = "1.0.0";
+export const VERSION = "1.0.1";
 
 // Lower-cased with diacritics removed, so "creme" finds "Crème".
 export const normalise = (s) =>
-  String(s).normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+  String(s).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 
 const escapeRegExp = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 

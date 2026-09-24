@@ -58,7 +58,7 @@ HACS registers the dashboard resource automatically.
 
 ```yaml
 resources:
-  - url: /local/searchable-select-row.js?v=1.0.0
+  - url: /local/searchable-select-row.js?v=1.0.1
     type: module
 ```
 
