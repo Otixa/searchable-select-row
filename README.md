@@ -40,13 +40,11 @@ Features:
 
 ### HACS (recommended)
 
-The row is not yet in the default HACS store. Add it as a custom repository:
+The row is in the default HACS store.
 
 1. Open HACS in Home Assistant.
-2. Open the menu (⋮) → **Custom repositories**.
-3. Enter `https://github.com/Otixa/searchable-select-row`, select type **Dashboard**, and click **Add**.
-4. Search for **Searchable Select Row** and click **Download**.
-5. Reload the browser.
+2. Search for **Searchable Select Row** and click **Download**.
+3. Reload the browser.
 
 HACS registers the dashboard resource automatically.
 
@@ -235,7 +233,7 @@ Released under the [MIT License](LICENSE).
 [releases-shield]: https://img.shields.io/github/release/Otixa/searchable-select-row.svg?style=for-the-badge
 [releases]: https://github.com/Otixa/searchable-select-row/releases
 [license-shield]: https://img.shields.io/github/license/Otixa/searchable-select-row.svg?style=for-the-badge
-[hacs-shield]: https://img.shields.io/badge/HACS-Custom-orange.svg?style=for-the-badge
+[hacs-shield]: https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=for-the-badge
 [hacs]: https://hacs.xyz
 [validate-shield]: https://img.shields.io/github/actions/workflow/status/Otixa/searchable-select-row/validate.yml?branch=main&style=for-the-badge&label=validate
 [validate]: https://github.com/Otixa/searchable-select-row/actions/workflows/validate.yml
