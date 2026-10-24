@@ -10,7 +10,7 @@
 //
 // https://github.com/Otixa/searchable-select-row
 
-export const VERSION = "1.0.2";
+export const VERSION = "1.0.3";
 
 // Lower-cased with diacritics removed, so "creme" finds "Crème".
 export const normalise = (s) =>

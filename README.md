@@ -48,6 +48,12 @@ The row is in the default HACS store.
 
 HACS registers the dashboard resource automatically.
 
+If the search finds nothing (HACS can take a few hours to pick up store changes), add the row as a custom repository instead:
+
+1. In HACS, open the menu (⋮) → **Custom repositories**.
+2. Enter `https://github.com/Otixa/searchable-select-row`, select type **Dashboard**, and click **Add**.
+3. Search again, then continue from step 2 above.
+
 ### Manual
 
 1. Download `searchable-select-row.js` from the [latest release][releases].
@@ -56,7 +62,7 @@ HACS registers the dashboard resource automatically.
 
 ```yaml
 resources:
-  - url: /local/searchable-select-row.js?v=1.0.2
+  - url: /local/searchable-select-row.js?v=1.0.3
     type: module
 ```
 
